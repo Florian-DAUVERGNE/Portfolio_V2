@@ -98,7 +98,7 @@ export default function ResumeBtn() {
           section === "#project" && "dark:text-black"
         )}
       >
-        Resume
+        CV
       </div>
     </a>
   )

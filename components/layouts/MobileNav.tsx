@@ -19,7 +19,7 @@ export default function MobileNav() {
           aria-label="Toggle Navbar"
         >
           <HambergerMenu />
-          <span className="sr-only">Toggle Navbar</span>
+          <span className="sr-only">Ouvrir la navigation</span>
         </Button>
       </SheetTrigger>
       <SheetContent

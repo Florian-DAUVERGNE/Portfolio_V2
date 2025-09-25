@@ -141,28 +141,16 @@ export default function ContactSection() {
           </div>
           <div className="flex flex-col items-center">
             <div className="text-accentColor text-lg font-semibold">
-              Shin Thant
+              DAUVERGNE Florian
             </div>
             <div className="dark:text-white text-sm">
-              Designer, Developer & Lover
+              Dévelloppeur Fullstack et IA
             </div>
           </div>
           <div className="overflow-hidden flex justify-center items-center">
-            <div className="title-animation w-full md:max-w-[80%] text-center dark:text-gray-400">
-              I&apos;m always excited to connect with like-minded professionals
-              and potential collaborators. Whether you have a project in mind,
-              need assistance, or just want to say hello, feel free to reach
-              out!
-            </div>
+            <div className="title-animation w-full md:max-w-[80%] text-center dark:text-gray-400"></div>
           </div>
           <div className="end-title dark:text-white text-md">
-            Made with ❤️ by Shin Thant
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
           </div>
         </div>
       </div>
