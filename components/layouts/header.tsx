@@ -38,9 +38,9 @@ export default function Header() {
                   section === "#project" && "dark:text-black"
                 )}
               >
-                ShinThant
+                {process.env.NEXT_PUBLIC_NOM}
               </span>
-              <span className="text-accentColor font-bold">.dev</span>
+              <span className="text-accentColor font-bold"> {process.env.NEXT_PUBLIC_PRENOM}</span>
             </Link>
           </div>
           <div className="col-span-4 hidden md:block m-auto">

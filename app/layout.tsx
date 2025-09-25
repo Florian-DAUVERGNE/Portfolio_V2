@@ -9,16 +9,15 @@ import "./globals.css"
 const jost = Jost({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "ShinThant.Dev",
-  description: "A Frontend Developer",
+  title: process.env.TITLE,
+  description: process.env.DESCRIPTION_SIMPLE,
   applicationName: "Portfolio",
   openGraph: {
     type: "website",
-    url: "https://devshinthant.vercel.app/",
-    title: "Shinthant.Dev",
-    description:
-      "Portfolio website developed with NextJS, TypeScript, ShadcnUI & GSAP.",
-    siteName: "Portfolio website",
+    url: process.env.URL,
+    title: process.env.TITLE,
+    description: process.env.DESCRIPTION_COMPLEXE,
+    siteName: "Portfolio - DAUVERGNE Florian",
     images: [
       {
         url: "https://i.ibb.co/m5bYtw6/responsive-showcase.png",
@@ -26,11 +25,11 @@ export const metadata: Metadata = {
     ],
   },
   authors: {
-    name: "Shin Thant",
+    name: process.env.FULLNAME,
   },
   generator: "NextJs",
-  keywords: ["NextJS", "Portfolio", "GSAP", "ShadcnUI"],
-  creator: "Shin Thant",
+  keywords: ["NextJS", "Portfolio", "ShadcnUI"],
+  creator: process.env.FULLNAME,
   icons: {
     icon: "/favicon.png",
   },
@@ -42,7 +41,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <Analytics />
       <body className={jost.className}>
         <Loader />
