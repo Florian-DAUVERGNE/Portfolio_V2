@@ -7,10 +7,10 @@ import Loopy from "@/public/assets/projects/loopy.png"
 import MantineBoards from "@/public/assets/projects/mantine-boards.png"
 import MiroClone from "@/public/assets/projects/miro-clone.png"
 import MotionScape from "@/public/assets/projects/motion-scape.png"
-import PortfolioV2 from "@/public/assets/projects/portfolio-v2.png"
+import PortfolioV1 from "@/public/assets/projects/portfolio-v1.png"
 import TheRealHotels from "@/public/assets/projects/therealhotels.png"
 import ValentinCarousel from "@/public/assets/projects/valentin-carousel.png"
-import VSCode from "@/public/assets/projects/vscode.png"
+import Aquarium from "@/public/assets/projects/aquarium.png"
 import { useSectionStore } from "@/store/section"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
@@ -120,91 +120,25 @@ export interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "VSCode Portfolio",
+    title: "Aquarium commandé",
     description:
-      "My portfolio website in vscode version developed with React and TypeScript.",
-    techStacks: ["ReactJS", "TypeScript"],
-    image: VSCode,
-    githubURL: "https://github.com/devshinthant/vscode-portfolio",
-    liveURL: "https://devshinthant-v1.vercel.app",
-    githubApi: "https://api.github.com/repos/devshinthant/vscode-portfolio",
+      "Construction d'un dispositif d'aquarium intelligent avec contrôle de la température, de l'éclairage et de la qualité de l'eau via une application web.",
+    techStacks: ["JavaScript", "Arduino"],
+    image: Aquarium,
+    githubURL: "https://github.com/Florian-DAUVERGNE/Aquarium",
+    liveURL: "https://fdauvergne-aquarium.vercel.app",
+    githubApi: "https://api.github.com/repos/Florian-DAUVERGNE/Aquarium",
   },
 
   {
     id: 2,
-    title: "Portfolio V2",
+    title: "Portfolio V1",
     description:
-      "A refined and enhanced showcase of my work, designed to highlight my skills and projects with a sleek and modern interface.",
-    techStacks: ["NextJS", "ShadnUI", "GSAP"],
-    image: PortfolioV2,
-    githubURL: "https://github.com/devshinthant/shinthant.dev",
-    liveURL: "https://devshinthant.vercel.app",
-    githubApi: "https://api.github.com/repos/devshinthant/shinthant.dev",
-  },
-  {
-    id: 3,
-    title: "Mantine Boards",
-    description:
-      "Responsive Dashboards, perfect for admin dashboards, analytics platforms, or any project that requires a clean, modern interface.",
-    techStacks: ["RemixJS", "MantineUI"],
-    image: MantineBoards,
-    githubURL: "https://github.com/devshinthant/mantine-boards",
-    liveURL: "https://mantine-boards.vercel.app",
-    githubApi: "https://api.github.com/repos/devshinthant/mantine-boards",
-  },
-  {
-    id: 4,
-    title: "Motion Scape",
-    description:
-      "Motion Scape is a visually dynamic website dedicated to the art of animations and transitions in web design.",
-    techStacks: ["NextJS", "GSAP", "TypeScript"],
-    image: MotionScape,
-    githubURL: "https://github.com/devshinthant/motion-scape",
-    liveURL: "https://motion-gsap.vercel.app",
-    githubApi: "https://api.github.com/repos/devshinthant/motion-scape",
-  },
-  {
-    id: 5,
-    title: "Loopy",
-    description:
-      "Loopy is a modern video conferencing app designed for seamless virtual meetings with real-time video, audio, and chat features. Built for speed, simplicity, and collaboration.",
-    techStacks: ["ReactJs", "WebRTC", "Mediasoup", "Socket.io"],
-    image: Loopy,
-    githubURL: "https://github.com/devshinthant/loopy",
-    liveURL: "https://loopy-ashen.vercel.app/",
-    githubApi: "https://api.github.com/repos/devshinthant/loopy",
-  },
-  {
-    id: 6,
-    title: "Valentin Carousel",
-    description:
-      "An animated carousel inspired by Valentin Awward Winning Website",
-    techStacks: ["ReactJs", "GSAP"],
-    image: ValentinCarousel,
-    githubURL: "https://github.com/devshinthant/valentin-carousel",
-    liveURL: "https://valentin-carousel.vercel.app",
-    githubApi: "https://api.github.com/repos/devshinthant/valentin-carousel",
-  },
-  {
-    id: 7,
-    title: "TheRealHotels",
-    description:
-      "A Landing Website Inspired by awwarded website,therealhotels.com",
-    techStacks: ["ReactJs", "GSAP"],
-    image: TheRealHotels,
-    githubURL: "https://github.com/devshinthant/therealhotels",
-    liveURL: "https://therealhotels.vercel.app",
-    githubApi: "https://api.github.com/repos/devshinthant/therealhotels",
-  },
-  {
-    id: 8,
-    title: "Miro Clone",
-    description:
-      "Enjoy a wide range of brushes, colors, and effects, along with layers, undo/redo functionality, and easy sharing options.",
-    techStacks: ["NextJS", "ShadnUI", "Convex", "Clerk", "Liveblocks"],
-    image: MiroClone,
-    githubURL: "https://github.com/devshinthant/realtime-miro-clone",
-    liveURL: "https://realtime-miro-clone.vercel.app",
-    githubApi: "https://api.github.com/repos/devshinthant/realtime-miro-clone",
+      "Mon premier site Web de portfolio personnel pour présenter mes compétences, mes projets et mes expériences en tant que développeur.",
+    techStacks: ["NextJS", "React"],
+    image: PortfolioV1,
+    githubURL: "https://github.com/Florian-DAUVERGNE/Portfolio_V1",
+    liveURL: "https://fdauvergne-portfolio-v1.vercel.app",
+    githubApi: "https://api.github.com/repos/Florian-DAUVERGNE/Portfolio_V1",
   },
 ]
