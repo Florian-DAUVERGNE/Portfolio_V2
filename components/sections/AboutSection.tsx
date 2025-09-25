@@ -160,12 +160,12 @@ export default function AboutSection() {
             <div className="flex flex-col items-start gap-4">
               <div className="overflow-hidden">
                 <div className="dark:text-white text-animation">
-                  Avec 2 années d'expérience professionnelle en tant que développeur fullstack,
-                  ainsi qu'un parcours académique incluant des compétences en IA,
-                  je me spécialise dans la création d'applications web modernes
+                  Avec 2 années d&apos;expérience professionnelle en tant que développeur fullstack,
+                  ainsi qu&apos;un parcours académique incluant des compétences en IA,
+                  je me spécialise dans la création d&apos;applications web modernes
                   et performantes. 
 
-                  Passionné par la technologie, je m'efforce
+                  Passionné par la technologie, je m&apos;efforce
                   de concevoir des solutions innovantes et efficaces pour répondre
                   aux besoins des utilisateurs.
                 </div>
@@ -208,7 +208,7 @@ export default function AboutSection() {
                   <span className="experience-count">0</span>{" "}
                   <span className="text-accentColor">+</span>
                 </div>
-                <div className="dark:text-white text-sm">années d'expérience</div>
+                <div className="dark:text-white text-sm">années d&apos;expérience</div>
               </div>
 
               <div className="flex flex-col font-medium items-center">

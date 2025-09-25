@@ -1,4 +1,3 @@
-import { ArrowRightIcon } from "@radix-ui/react-icons"
 import { ArrowDown2, Mouse } from "iconsax-react"
 import Link from "next/link"
 
