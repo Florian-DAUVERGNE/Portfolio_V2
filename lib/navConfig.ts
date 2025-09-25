@@ -1,18 +1,14 @@
 const navlinks = [
     {
-        title:"About",
+        title:"À propos",
         href:"#about"
     },
     {
-        title:"Project",
+        title:"Projets",
         href:"#project"
     },
     {
-        title:"Blog",
-        href:"#blog"
-    },
-    {
-        title:"Contact",
+        title:"Contacts",
         href:"#contact"
     },
 ]
