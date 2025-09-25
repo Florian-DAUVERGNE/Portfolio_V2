@@ -72,7 +72,7 @@ export default function AboutSection() {
           )
 
           tl.to(q(".experience-count"), {
-            innerText: 3,
+            innerText: 2,
             duration: 0.5,
             snap: {
               innerText: 1,
@@ -82,7 +82,7 @@ export default function AboutSection() {
           tl.to(
             q(".project-count"),
             {
-              innerText: 30,
+              innerText: 15,
               duration: 0.5,
               snap: {
                 innerText: 1,
@@ -137,7 +137,7 @@ export default function AboutSection() {
             <div className="relative">
               <div className="overflow-hidden">
                 <div className="text-animation dark:text-accentColor text-3xl md:text-4xl font-medium">
-                  About me
+                  À propos de moi
                 </div>
               </div>
 
@@ -160,24 +160,43 @@ export default function AboutSection() {
             <div className="flex flex-col items-start gap-4">
               <div className="overflow-hidden">
                 <div className="dark:text-white text-animation">
-                  With over 3 years of experience as a fullstack developer, I
-                  specialize in crafting responsive and user-friendly web
-                  applications. I excel in creating intuitive interfaces and
-                  enjoy working in collaborative, agile environments.
+                  Avec 2 années d'expérience professionnelle en tant que développeur fullstack,
+                  ainsi qu'un parcours académique incluant des compétences en IA,
+                  je me spécialise dans la création d'applications web modernes
+                  et performantes. 
+
+                  Passionné par la technologie, je m'efforce
+                  de concevoir des solutions innovantes et efficaces pour répondre
+                  aux besoins des utilisateurs.
                 </div>
               </div>
 
               <div className="overflow-hidden">
                 <div className="dark:text-white text-animation">
-                  My Educational background.
+                  Mon parcours académique
                 </div>
               </div>
               <div className="flex gap-1 flex-col items-start">
-                <div className="text-accentColor">NCC Education</div>
+                <div className="text-accentColor">Master Informatique - Ingénierie en Intelligence Artificielle (I2A)</div>
                 <div className="overflow-hidden">
                   <div className="dark:text-white text-animation">
-                    Attending Higher National Diploma in Computing (NCC)
-                    Program.
+                    Université Paris 8 - Saint-Denis
+                  </div>
+                </div>
+              </div>
+              <div className="flex gap-1 flex-col items-start">
+                <div className="text-accentColor">Licence Informatique - Informatiques des systèmes embarqués (ISEI)</div>
+                <div className="overflow-hidden">
+                  <div className="dark:text-white text-animation">
+                    Université Paris 8 - Saint-Denis
+                  </div>
+                </div>
+              </div>
+              <div className="flex gap-1 flex-col items-start">
+                <div className="text-accentColor">BTS Informatique - Systèmes Numériques Informatique et Réseaux (SNIR)</div>
+                <div className="overflow-hidden">
+                  <div className="dark:text-white text-animation">
+                    Lycée Polyvalent Jean Rostand - Villepinte
                   </div>
                 </div>
               </div>
@@ -189,7 +208,7 @@ export default function AboutSection() {
                   <span className="experience-count">0</span>{" "}
                   <span className="text-accentColor">+</span>
                 </div>
-                <div className="dark:text-white text-sm">Experiences</div>
+                <div className="dark:text-white text-sm">années d'expérience</div>
               </div>
 
               <div className="flex flex-col font-medium items-center">
@@ -198,17 +217,11 @@ export default function AboutSection() {
                   <span className="text-accentColor">+</span>
                 </div>
                 <div className="dark:text-white text-sm">
-                  Completed Projects
+                  Projets réalisés
                 </div>
               </div>
 
-              <div className="flex flex-col font-medium items-center">
-                <div className="text-3xl md:text-4xl dark:text-white">
-                  <span className="user-count">0</span>{" "}
-                  <span className="text-accentColor">+</span>
-                </div>
-                <div className="dark:text-white text-sm">Contributions</div>
-              </div>
+              
             </div>
           </div>
           <div className="w-full h-full flex justify-center items-center image-animation ">
@@ -219,7 +232,7 @@ export default function AboutSection() {
                 width={300}
                 height={300}
                 priority
-                alt="shin thant's profile"
+                alt="Photo de profil"
                 src={ShinThantImage}
               />
 

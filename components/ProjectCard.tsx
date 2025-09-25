@@ -122,7 +122,18 @@ export default function ProjectCard({ item }: Props) {
               rel="noreferrer"
               className="flex items-center gap-2"
             >
-              <div className="group-hover:text-white">Visit</div>
+              <div className="group-hover:text-white">Visiter</div>
+            </a>
+          )}
+          
+          {item.githubURL && (
+            <a
+              href={item.githubURL}
+              title={`See '${item.title}' on Github`}
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-2"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

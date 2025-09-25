@@ -45,29 +45,28 @@ export default function HeroContent() {
     >
       <div className="overflow-hidden">
         <div className="text-animation  dark:bg-[linear-gradient(#fff,rgba(255,255,255,.6))] inline-block text-black dark:text-transparent bg-clip-text leading-none text-4xl md:text-6xl font-semibold">
-          It&apos;s Shinn Thant
+          DAUVERGNE Florian
         </div>
       </div>
 
       <div className="overflow-hidden">
         <div className="text-animation text-2xl md:text-4xl font-semibold">
-          <span className="bg-[linear-gradient(#fff,rgba(255,255,255,.6))] inline-block text-transparent bg-clip-text">
-            A
-          </span>{" "}
-          <span className="text-accentColor">Software</span>{" "}
           <span className="bg-[linear-gradient(#000000,rgba(255,255,255,.6))] dark:bg-[linear-gradient(#fff,rgba(255,255,255,.6))] inline-block text-transparent bg-clip-text">
-            Engineer
+            Un développeur
+          </span>{" "}
+          <span className="text-accentColor">IA</span>{" "}
+          <span className="bg-[linear-gradient(#000000,rgba(255,255,255,.6))] dark:bg-[linear-gradient(#fff,rgba(255,255,255,.6))] inline-block text-transparent bg-clip-text">
+            & Fullstack
           </span>
         </div>
       </div>
 
       <div className="w-[300px] md:w-[370px] relative z-30 text-center text-sm dark:bg-[linear-gradient(#fff,rgba(255,255,255,.6))] inline-block text-black dark:text-transparent bg-clip-text">
-        Passionate and detail-oriented software developer with a knack for
-        creating visually appealing and user-friendly web interfaces
+Développeur fullstack passionné par l’IA, je conçois des solutions logicielles où rigueur technique et créativité se rencontrent. Polyvalent et curieux, j’explore aussi le développement embarqué et les applications intelligentes.
       </div>
 
       <div className="bio-animation dark:bg-[linear-gradient(#fff,rgba(255,255,255,.6))] inline-block text-black dark:text-transparent bg-clip-text text-md md:text-lg">
-        Where creativity meets functionality.
+        À la croisée de l’innovation et de la fonctionnalité.
       </div>
 
       <Link
